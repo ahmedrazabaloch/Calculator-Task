@@ -42,6 +42,14 @@ button:hover {
   background-color: #e0e0e0;
 }
 
+button:active {
+  background-color: #b3b3b3;
+  box-shadow: 0 3px #707070;
+  transform: translateY(3px);
+}
+button > img {
+background-color: transparent;
+}
 .colors {
   background-color: #f98b6b;
   width: 135px;
