@@ -31,6 +31,8 @@ function singleDelete() {
 }
 
 function calculate() {
-  var result = eval(document.getElementById("screen").value);
-  document.getElementById("screen").value = result;
+  if (screen.value !== "") {
+    var result = eval(document.getElementById("screen").value);
+    document.getElementById("screen").value = result;
+  }
 }
