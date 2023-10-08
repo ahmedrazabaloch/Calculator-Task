@@ -48,7 +48,7 @@ button:active {
   transform: translateY(3px);
 }
 button > img {
-background-color: transparent;
+  background-color: transparent;
 }
 .colors {
   background-color: #f98b6b;
